@@ -3,6 +3,7 @@
 #![feature(const_ptr_offset)]
 #![feature(custom_test_frameworks)]
 #![test_runner(test_runner)]
+#![feature(restricted_std)]
 
 use core::panic::PanicInfo;
 

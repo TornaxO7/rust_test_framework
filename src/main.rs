@@ -2,6 +2,7 @@
 #![no_main]
 #![feature(const_ptr_offset)]
 #![reexport_test_harness_main = "test_main"]
+#![feature(restricted_std)]
 
 use os_clone2 as _;
 
